@@ -1,0 +1,343 @@
+2017-07-28T22:42:08.689740000 40.088349s notice: Recursively removing directory /Volumes/SUPPORT/Workspace/Personal/numenor/rethinkdb_data/tmp
+2017-07-28T22:42:08.697836000 40.096453s notice: Initializing directory /Volumes/SUPPORT/Workspace/Personal/numenor/rethinkdb_data
+2017-07-28T22:42:08.697986000 40.096594s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Volumes/SUPPORT/Workspace/Personal/numenor/rethinkdb_data' did not already exist or is empty.)
+2017-07-28T22:42:08.698044000 40.096652s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-07-28T22:42:08.712420000 40.111030s notice: Running on Darwin 16.4.0 x86_64
+2017-07-28T22:42:08.712506000 40.111114s notice: Loading data from directory /Volumes/SUPPORT/Workspace/Personal/numenor/rethinkdb_data
+2017-07-28T22:42:08.807220000 40.205828s info: Automatically using cache size of 100 MB
+2017-07-28T22:42:08.807232000 40.205840s warn: Cache size is very low and may impact performance.
+2017-07-28T22:42:08.807994000 40.206602s notice: Listening for intracluster connections on port 29015
+2017-07-28T22:42:08.810467000 40.209075s notice: Listening for client driver connections on port 28015
+2017-07-28T22:42:08.810649000 40.209257s notice: Listening for administrative HTTP connections on port 8080
+2017-07-28T22:42:08.810653000 40.209260s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-07-28T22:42:08.810658000 40.209265s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-07-28T22:42:08.810660000 40.209267s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-07-28T22:42:08.810664000 40.209272s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-07-28T22:42:08.810669000 40.209277s notice: Server ready, "MacBook_Pro_Michal_local_iq5" e457b944-35f7-4716-8f02-28ba61776b8b
+2017-07-28T22:43:00.288006000 91.685625s notice: Server got SIGINT from pid 376, uid 501; shutting down...
+2017-07-28T22:43:00.288182000 91.685799s notice: Shutting down client connections...
+2017-07-28T22:43:00.288306000 91.685924s notice: All client connections closed.
+2017-07-28T22:43:00.288315000 91.685932s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-07-28T22:43:00.299870000 91.697488s notice: Storage engine shut down.
+2017-07-28T22:43:58.353756000 40.039692s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-07-28T22:43:58.364808000 40.050739s notice: Running on Darwin 16.4.0 x86_64
+2017-07-28T22:43:58.364908000 40.050837s notice: Loading data from directory /Volumes/SUPPORT/Workspace/Personal/numenor/rethinkdb_data
+2017-07-28T22:43:58.393941000 40.079871s info: Automatically using cache size of 100 MB
+2017-07-28T22:43:58.393958000 40.079887s warn: Cache size is very low and may impact performance.
+2017-07-28T22:43:58.395580000 40.081509s notice: Listening for intracluster connections on port 29015
+2017-07-28T22:43:58.397631000 40.083561s notice: Listening for client driver connections on port 28015
+2017-07-28T22:43:58.397904000 40.083833s notice: Listening for administrative HTTP connections on port 8080
+2017-07-28T22:43:58.397909000 40.083838s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-07-28T22:43:58.397917000 40.083846s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-07-28T22:43:58.397920000 40.083848s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-07-28T22:43:58.397927000 40.083855s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-07-28T22:43:58.397934000 40.083862s notice: Server ready, "MacBook_Pro_Michal_local_iq5" e457b944-35f7-4716-8f02-28ba61776b8b
+2017-07-28T22:52:15.443436000 537.119781s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T22:52:15.853717000 537.530030s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T22:52:32.017431000 553.693455s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T22:52:32.467245000 554.143237s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T22:52:57.739703000 579.415215s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T22:52:57.739852000 579.415363s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T22:52:58.167393000 579.842905s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T22:52:58.209416000 579.884928s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T22:56:18.791472000 780.463109s notice: Server got SIGINT from pid 376, uid 501; shutting down...
+2017-07-28T22:56:18.791811000 780.463447s notice: Shutting down client connections...
+2017-07-28T22:56:18.792425000 780.464061s notice: All client connections closed.
+2017-07-28T22:56:18.792436000 780.464071s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-07-28T22:56:18.793378000 780.465014s notice: Storage engine shut down.
+2017-07-28T22:57:02.159840000 40.052111s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-07-28T22:57:02.183131000 40.075397s notice: Running on Darwin 16.4.0 x86_64
+2017-07-28T22:57:02.183213000 40.075478s notice: Loading data from directory /Volumes/SUPPORT/Workspace/Personal/numenor/rethinkdb_data
+2017-07-28T22:57:02.208938000 40.101203s info: Automatically using cache size of 100 MB
+2017-07-28T22:57:02.208952000 40.101216s warn: Cache size does not leave much memory for server and query overhead (available memory: 1041 MB).
+2017-07-28T22:57:02.208961000 40.101225s warn: Cache size is very low and may impact performance.
+2017-07-28T22:57:02.209629000 40.101893s notice: Listening for intracluster connections on port 29015
+2017-07-28T22:57:02.211494000 40.103758s notice: Listening for client driver connections on port 28015
+2017-07-28T22:57:02.211705000 40.103969s notice: Listening for administrative HTTP connections on port 8080
+2017-07-28T22:57:02.211709000 40.103973s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-07-28T22:57:02.211714000 40.103978s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-07-28T22:57:02.211716000 40.103980s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-07-28T22:57:02.211720000 40.103984s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-07-28T22:57:02.211725000 40.103989s notice: Server ready, "MacBook_Pro_Michal_local_iq5" e457b944-35f7-4716-8f02-28ba61776b8b
+2017-07-28T23:00:15.827002000 233.715551s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: Starting a new Raft election for term 1.
+2017-07-28T23:00:15.827835000 233.716384s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: Added replica on this server.
+2017-07-28T23:00:15.841301000 233.729850s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: This server is Raft leader for term 1. Latest log index is 0.
+2017-07-28T23:00:16.350540000 234.239057s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: Configuration is changing.
+2017-07-28T23:01:35.001694000 312.888707s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:01:36.034596000 313.921577s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:01:36.245508000 314.132489s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:01:36.245648000 314.132628s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:01:36.764871000 314.651853s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:01:36.808390000 314.695371s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:01:38.879988000 316.766937s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:01:38.880101000 316.767049s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:01:39.356470000 317.243387s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:01:39.396868000 317.283785s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:01:44.206156000 322.092977s notice: Server got SIGINT from pid 376, uid 501; shutting down...
+2017-07-28T23:01:44.206365000 322.093185s notice: Shutting down client connections...
+2017-07-28T23:01:44.222156000 322.108977s notice: All client connections closed.
+2017-07-28T23:01:44.222179000 322.108999s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-07-28T23:01:44.243616000 322.130437s notice: Storage engine shut down.
+2017-07-28T23:02:28.453487000 40.033078s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-07-28T23:02:28.472902000 40.052486s notice: Running on Darwin 16.4.0 x86_64
+2017-07-28T23:02:28.472982000 40.052564s notice: Loading data from directory /Volumes/SUPPORT/Workspace/Personal/numenor/rethinkdb_data
+2017-07-28T23:02:28.498740000 40.078322s info: Automatically using cache size of 100 MB
+2017-07-28T23:02:28.498750000 40.078332s warn: Cache size does not leave much memory for server and query overhead (available memory: 1045 MB).
+2017-07-28T23:02:28.498757000 40.078338s warn: Cache size is very low and may impact performance.
+2017-07-28T23:02:28.499454000 40.079037s notice: Listening for intracluster connections on port 29015
+2017-07-28T23:02:28.523920000 40.103502s notice: Listening for client driver connections on port 28015
+2017-07-28T23:02:28.524121000 40.103703s notice: Listening for administrative HTTP connections on port 8080
+2017-07-28T23:02:28.524124000 40.103706s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-07-28T23:02:28.524126000 40.103708s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-07-28T23:02:28.524128000 40.103710s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-07-28T23:02:28.524208000 40.103790s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-07-28T23:02:28.524211000 40.103792s notice: Server ready, "MacBook_Pro_Michal_local_iq5" e457b944-35f7-4716-8f02-28ba61776b8b
+2017-07-28T23:02:29.915883000 41.495433s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: Starting a new Raft election for term 2.
+2017-07-28T23:02:29.931387000 41.510936s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: This server is Raft leader for term 2. Latest log index is 3.
+2017-07-28T23:04:17.101385000 148.678854s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:04:17.115279000 148.692748s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:04:17.545713000 149.123182s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:04:17.591230000 149.168699s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:04:45.453778000 177.030703s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:04:45.453875000 177.030799s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:04:45.872438000 177.449363s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:04:45.914097000 177.491022s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:04:47.069681000 178.646574s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:04:47.071104000 178.647997s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:04:47.556819000 179.133712s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:04:47.591751000 179.168644s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:04:50.606788000 182.183617s notice: Server got SIGINT from pid 376, uid 501; shutting down...
+2017-07-28T23:04:50.607104000 182.183932s notice: Shutting down client connections...
+2017-07-28T23:04:50.607641000 182.184469s notice: All client connections closed.
+2017-07-28T23:04:50.607649000 182.184477s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-07-28T23:04:50.625028000 182.201858s notice: Storage engine shut down.
+2017-07-28T23:05:37.972969000 40.051498s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-07-28T23:05:37.998050000 40.076574s notice: Running on Darwin 16.4.0 x86_64
+2017-07-28T23:05:37.998128000 40.076650s notice: Loading data from directory /Volumes/SUPPORT/Workspace/Personal/numenor/rethinkdb_data
+2017-07-28T23:05:38.022729000 40.101252s info: Automatically using cache size of 100 MB
+2017-07-28T23:05:38.022740000 40.101262s warn: Cache size does not leave much memory for server and query overhead (available memory: 1077 MB).
+2017-07-28T23:05:38.022746000 40.101268s warn: Cache size is very low and may impact performance.
+2017-07-28T23:05:38.023373000 40.101895s notice: Listening for intracluster connections on port 29015
+2017-07-28T23:05:38.047925000 40.126448s notice: Listening for client driver connections on port 28015
+2017-07-28T23:05:38.048258000 40.126780s notice: Listening for administrative HTTP connections on port 8080
+2017-07-28T23:05:38.048264000 40.126786s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-07-28T23:05:38.048268000 40.126790s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-07-28T23:05:38.048271000 40.126793s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-07-28T23:05:38.048287000 40.126809s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-07-28T23:05:38.048291000 40.126813s notice: Server ready, "MacBook_Pro_Michal_local_iq5" e457b944-35f7-4716-8f02-28ba61776b8b
+2017-07-28T23:05:39.730833000 41.809324s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: Starting a new Raft election for term 3.
+2017-07-28T23:05:39.749756000 41.828247s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: This server is Raft leader for term 3. Latest log index is 6.
+2017-07-28T23:05:51.206314000 53.284581s notice: Someone asked for the nonwhitelisted file "/sockjs-node/506/xhzfytis/websocket".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:06:19.265368000 81.343091s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:06:20.323597000 82.401289s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:06:22.379672000 84.457331s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:06:26.437600000 88.515163s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:06:34.486217000 96.563619s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:06:50.561776000 112.638890s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:07:22.632795000 144.709301s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:07:32.100275000 154.176590s notice: Server got SIGINT from pid 376, uid 501; shutting down...
+2017-07-28T23:07:32.100533000 154.176847s notice: Shutting down client connections...
+2017-07-28T23:07:32.104077000 154.180392s notice: All client connections closed.
+2017-07-28T23:07:32.104087000 154.180400s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-07-28T23:07:32.111824000 154.188139s notice: Storage engine shut down.
+2017-07-28T23:08:15.433165000 40.041072s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-07-28T23:08:15.470428000 40.078328s notice: Running on Darwin 16.4.0 x86_64
+2017-07-28T23:08:15.470550000 40.078449s notice: Loading data from directory /Volumes/SUPPORT/Workspace/Personal/numenor/rethinkdb_data
+2017-07-28T23:08:15.498570000 40.106468s info: Automatically using cache size of 100 MB
+2017-07-28T23:08:15.498585000 40.106483s warn: Cache size does not leave much memory for server and query overhead (available memory: 1078 MB).
+2017-07-28T23:08:15.498593000 40.106491s warn: Cache size is very low and may impact performance.
+2017-07-28T23:08:15.499291000 40.107189s notice: Listening for intracluster connections on port 29015
+2017-07-28T23:08:15.522750000 40.130616s notice: Listening for client driver connections on port 28015
+2017-07-28T23:08:15.522987000 40.130853s notice: Listening for administrative HTTP connections on port 8080
+2017-07-28T23:08:15.522990000 40.130856s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-07-28T23:08:15.523104000 40.130969s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-07-28T23:08:15.523108000 40.130974s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-07-28T23:08:15.523111000 40.130977s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-07-28T23:08:15.523115000 40.130981s notice: Server ready, "MacBook_Pro_Michal_local_iq5" e457b944-35f7-4716-8f02-28ba61776b8b
+2017-07-28T23:08:17.361456000 41.969291s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: Starting a new Raft election for term 4.
+2017-07-28T23:08:17.377405000 41.985240s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: This server is Raft leader for term 4. Latest log index is 9.
+2017-07-28T23:08:31.730041000 56.337620s notice: Someone asked for the nonwhitelisted file "/sockjs-node/650/4bxoqmt2/websocket".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:09:46.603455000 131.209593s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:09:47.724314000 132.330420s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:09:49.799665000 134.405739s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:09:53.816491000 138.422469s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:10:00.418119000 145.023969s notice: Server got SIGINT from pid 376, uid 501; shutting down...
+2017-07-28T23:10:00.418320000 145.024169s notice: Shutting down client connections...
+2017-07-28T23:10:00.418646000 145.024495s notice: All client connections closed.
+2017-07-28T23:10:00.418655000 145.024503s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-07-28T23:10:00.429130000 145.034980s notice: Storage engine shut down.
+2017-07-28T23:10:43.817030000 40.037190s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-07-28T23:10:43.851729000 40.071883s notice: Running on Darwin 16.4.0 x86_64
+2017-07-28T23:10:43.851828000 40.071981s notice: Loading data from directory /Volumes/SUPPORT/Workspace/Personal/numenor/rethinkdb_data
+2017-07-28T23:10:43.879547000 40.099700s info: Automatically using cache size of 100 MB
+2017-07-28T23:10:43.879562000 40.099714s warn: Cache size does not leave much memory for server and query overhead (available memory: 1022 MB).
+2017-07-28T23:10:43.879569000 40.099721s warn: Cache size is very low and may impact performance.
+2017-07-28T23:10:43.880297000 40.100449s notice: Listening for intracluster connections on port 29015
+2017-07-28T23:10:43.904490000 40.124642s notice: Listening for client driver connections on port 28015
+2017-07-28T23:10:43.904736000 40.124889s notice: Listening for administrative HTTP connections on port 8080
+2017-07-28T23:10:43.904741000 40.124893s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-07-28T23:10:43.904744000 40.124896s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-07-28T23:10:43.904747000 40.124899s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-07-28T23:10:43.904891000 40.125043s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-07-28T23:10:43.904896000 40.125048s notice: Server ready, "MacBook_Pro_Michal_local_iq5" e457b944-35f7-4716-8f02-28ba61776b8b
+2017-07-28T23:10:45.892595000 42.112716s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: Starting a new Raft election for term 5.
+2017-07-28T23:10:45.908360000 42.128481s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: This server is Raft leader for term 5. Latest log index is 13.
+2017-07-28T23:11:21.192155000 77.411603s notice: Someone asked for the nonwhitelisted file "/sockjs-node/727/gnuczmqu/websocket".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:12:40.736456000 156.954368s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:12:41.880222000 158.098102s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:12:43.976295000 160.194143s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:12:48.041918000 164.259669s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:12:56.075296000 172.292887s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:13:01.143192000 177.360687s notice: Server got SIGINT from pid 376, uid 501; shutting down...
+2017-07-28T23:13:01.143365000 177.360859s notice: Shutting down client connections...
+2017-07-28T23:13:01.143618000 177.361112s notice: All client connections closed.
+2017-07-28T23:13:01.143624000 177.361118s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-07-28T23:13:01.152832000 177.370327s notice: Storage engine shut down.
+2017-07-28T23:13:46.728658000 40.059736s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-07-28T23:13:46.747477000 40.078550s notice: Running on Darwin 16.4.0 x86_64
+2017-07-28T23:13:46.747550000 40.078622s notice: Loading data from directory /Volumes/SUPPORT/Workspace/Personal/numenor/rethinkdb_data
+2017-07-28T23:13:46.773514000 40.104587s info: Automatically using cache size of 100 MB
+2017-07-28T23:13:46.773529000 40.104601s warn: Cache size is very low and may impact performance.
+2017-07-28T23:13:46.774280000 40.105352s notice: Listening for intracluster connections on port 29015
+2017-07-28T23:13:46.808072000 40.139144s notice: Listening for client driver connections on port 28015
+2017-07-28T23:13:46.808392000 40.139464s notice: Listening for administrative HTTP connections on port 8080
+2017-07-28T23:13:46.808397000 40.139469s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-07-28T23:13:46.808401000 40.139472s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-07-28T23:13:46.808403000 40.139475s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-07-28T23:13:46.808420000 40.139492s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-07-28T23:13:46.808423000 40.139495s notice: Server ready, "MacBook_Pro_Michal_local_iq5" e457b944-35f7-4716-8f02-28ba61776b8b
+2017-07-28T23:13:48.257038000 41.588078s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: Starting a new Raft election for term 6.
+2017-07-28T23:13:48.269499000 41.600540s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: This server is Raft leader for term 6. Latest log index is 16.
+2017-07-28T23:19:30.116795000 383.441177s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:19:30.116860000 383.441241s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:19:30.546143000 383.870525s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:19:30.560856000 383.885238s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:19:52.391570000 405.715535s info: Table db51c492-6679-43a3-8a3f-5edc61568567: Starting a new Raft election for term 1.
+2017-07-28T23:19:52.391983000 405.715948s info: Table db51c492-6679-43a3-8a3f-5edc61568567: Added replica on this server.
+2017-07-28T23:19:52.402699000 405.726665s info: Table db51c492-6679-43a3-8a3f-5edc61568567: This server is Raft leader for term 1. Latest log index is 0.
+2017-07-28T23:19:52.904480000 406.228445s info: Table db51c492-6679-43a3-8a3f-5edc61568567: Configuration is changing.
+2017-07-28T23:21:05.288073000 478.610631s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:21:05.288206000 478.610762s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:21:05.729385000 479.051910s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:21:05.763490000 479.086015s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:24:58.404478000 711.722489s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:24:58.404632000 711.722642s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:24:58.902028000 712.220040s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:24:58.942483000 712.260495s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:25:00.643542000 713.961522s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:25:00.643672000 713.961651s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:25:01.059777000 714.377757s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:25:01.068576000 714.386555s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:25:05.188385000 718.506269s notice: Server got SIGINT from pid 376, uid 501; shutting down...
+2017-07-28T23:25:05.188633000 718.506516s notice: Shutting down client connections...
+2017-07-28T23:25:05.189997000 718.507880s notice: All client connections closed.
+2017-07-28T23:25:05.190020000 718.507903s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-07-28T23:25:05.211859000 718.529743s notice: Storage engine shut down.
+2017-07-28T23:25:48.654016000 40.042823s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-07-28T23:25:48.683914000 40.072714s notice: Running on Darwin 16.4.0 x86_64
+2017-07-28T23:25:48.684030000 40.072828s notice: Loading data from directory /Volumes/SUPPORT/Workspace/Personal/numenor/rethinkdb_data
+2017-07-28T23:25:48.720160000 40.108958s info: Automatically using cache size of 100 MB
+2017-07-28T23:25:48.720175000 40.108972s warn: Cache size does not leave much memory for server and query overhead (available memory: 1107 MB).
+2017-07-28T23:25:48.720181000 40.108979s warn: Cache size is very low and may impact performance.
+2017-07-28T23:25:48.720979000 40.109778s notice: Listening for intracluster connections on port 29015
+2017-07-28T23:25:48.772712000 40.161511s notice: Listening for client driver connections on port 28015
+2017-07-28T23:25:48.773156000 40.161954s notice: Listening for administrative HTTP connections on port 8080
+2017-07-28T23:25:48.773196000 40.161993s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-07-28T23:25:48.773201000 40.161998s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-07-28T23:25:48.773205000 40.162003s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-07-28T23:25:48.773209000 40.162006s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-07-28T23:25:48.773213000 40.162010s notice: Server ready, "MacBook_Pro_Michal_local_iq5" e457b944-35f7-4716-8f02-28ba61776b8b
+2017-07-28T23:25:50.016606000 41.405372s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: Starting a new Raft election for term 7.
+2017-07-28T23:25:50.030187000 41.418953s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: This server is Raft leader for term 7. Latest log index is 19.
+2017-07-28T23:25:50.354093000 41.742859s info: Table db51c492-6679-43a3-8a3f-5edc61568567: Starting a new Raft election for term 2.
+2017-07-28T23:25:50.365351000 41.754117s info: Table db51c492-6679-43a3-8a3f-5edc61568567: This server is Raft leader for term 2. Latest log index is 3.
+2017-07-28T23:28:42.517557000 213.903027s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:28:42.519530000 213.905000s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:28:43.113927000 214.499365s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:28:43.165542000 214.550979s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:29:46.743962000 278.128183s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:29:46.750942000 278.135164s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:29:47.197417000 278.581639s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.js".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:29:47.227327000 278.611548s notice: Someone asked for the nonwhitelisted file "/packs/hello_vue.css".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:31:24.487263000 375.869597s notice: Server got SIGINT from pid 376, uid 501; shutting down...
+2017-07-28T23:31:24.487476000 375.869808s notice: Shutting down client connections...
+2017-07-28T23:31:24.488297000 375.870631s notice: All client connections closed.
+2017-07-28T23:31:24.488307000 375.870639s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-07-28T23:31:24.508799000 375.891132s notice: Storage engine shut down.
+2017-07-28T23:32:08.537835000 40.036927s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-07-28T23:32:08.588753000 40.087839s notice: Running on Darwin 16.4.0 x86_64
+2017-07-28T23:32:08.588847000 40.087930s notice: Loading data from directory /Volumes/SUPPORT/Workspace/Personal/numenor/rethinkdb_data
+2017-07-28T23:32:08.625357000 40.124441s info: Automatically using cache size of 100 MB
+2017-07-28T23:32:08.625372000 40.124455s warn: Cache size does not leave much memory for server and query overhead (available memory: 982 MB).
+2017-07-28T23:32:08.625380000 40.124463s warn: Cache size is very low and may impact performance.
+2017-07-28T23:32:08.626392000 40.125475s notice: Listening for intracluster connections on port 29015
+2017-07-28T23:32:08.708421000 40.207505s notice: Listening for client driver connections on port 28015
+2017-07-28T23:32:08.708998000 40.208081s notice: Listening for administrative HTTP connections on port 8080
+2017-07-28T23:32:08.709004000 40.208087s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-07-28T23:32:08.709008000 40.208091s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-07-28T23:32:08.709343000 40.208427s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-07-28T23:32:08.709354000 40.208437s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-07-28T23:32:08.709360000 40.208486s notice: Server ready, "MacBook_Pro_Michal_local_iq5" e457b944-35f7-4716-8f02-28ba61776b8b
+2017-07-28T23:32:10.197048000 41.696100s info: Table db51c492-6679-43a3-8a3f-5edc61568567: Starting a new Raft election for term 3.
+2017-07-28T23:32:10.212311000 41.711363s info: Table db51c492-6679-43a3-8a3f-5edc61568567: This server is Raft leader for term 3. Latest log index is 6.
+2017-07-28T23:32:10.454908000 41.953960s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: Starting a new Raft election for term 8.
+2017-07-28T23:32:10.483745000 41.982797s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: This server is Raft leader for term 8. Latest log index is 22.
+2017-07-28T23:32:11.922695000 43.421715s notice: Someone asked for the nonwhitelisted file "/sockjs-node/349/v1fcb2rn/websocket".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:32:22.229554000 53.728382s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:32:23.322899000 54.821695s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:32:25.427271000 56.926035s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:32:29.517026000 61.015694s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:32:30.718037000 62.216705s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:32:31.780648000 63.279283s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:32:33.897710000 65.396314s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:32:37.951797000 69.450304s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:32:46.012085000 77.510432s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:32:59.851251000 91.349343s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:33:00.880156000 92.378216s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:33:03.011072000 94.509100s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:33:07.055103000 98.553067s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:33:15.165111000 106.662915s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:33:31.279019000 122.776503s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:34:03.366619000 154.863495s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:35:07.473531000 218.969159s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:37:15.553731000 347.046895s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:38:47.189371000 438.680775s notice: Server got SIGINT from pid 376, uid 501; shutting down...
+2017-07-28T23:38:47.189588000 438.680991s notice: Shutting down client connections...
+2017-07-28T23:38:47.190265000 438.681669s notice: All client connections closed.
+2017-07-28T23:38:47.190275000 438.681678s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-07-28T23:38:47.216939000 438.708343s notice: Storage engine shut down.
+2017-07-28T23:39:30.664493000 40.044670s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-07-28T23:39:30.702090000 40.082261s notice: Running on Darwin 16.4.0 x86_64
+2017-07-28T23:39:30.702176000 40.082345s notice: Loading data from directory /Volumes/SUPPORT/Workspace/Personal/numenor/rethinkdb_data
+2017-07-28T23:39:30.731279000 40.111448s info: Automatically using cache size of 100 MB
+2017-07-28T23:39:30.731324000 40.111493s warn: Cache size is very low and may impact performance.
+2017-07-28T23:39:30.732175000 40.112344s notice: Listening for intracluster connections on port 29015
+2017-07-28T23:39:30.775238000 40.155408s notice: Listening for client driver connections on port 28015
+2017-07-28T23:39:30.775544000 40.155713s notice: Listening for administrative HTTP connections on port 8080
+2017-07-28T23:39:30.775579000 40.155747s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-07-28T23:39:30.775583000 40.155752s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-07-28T23:39:30.775586000 40.155755s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-07-28T23:39:30.775589000 40.155758s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-07-28T23:39:30.775600000 40.155768s notice: Server ready, "MacBook_Pro_Michal_local_iq5" e457b944-35f7-4716-8f02-28ba61776b8b
+2017-07-28T23:39:31.933832000 41.313969s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: Starting a new Raft election for term 9.
+2017-07-28T23:39:31.949209000 41.329346s info: Table def19d8a-6710-4da0-8ead-8023a119a3e9: This server is Raft leader for term 9. Latest log index is 25.
+2017-07-28T23:39:32.599001000 41.979138s info: Table db51c492-6679-43a3-8a3f-5edc61568567: Starting a new Raft election for term 4.
+2017-07-28T23:39:32.613641000 41.993779s info: Table db51c492-6679-43a3-8a3f-5edc61568567: This server is Raft leader for term 4. Latest log index is 9.
+2017-07-28T23:39:46.521656000 55.901505s notice: Someone asked for the nonwhitelisted file "/sockjs-node/053/bbrce5tq/websocket".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:41:04.991162000 134.369476s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:41:06.112021000 135.490334s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:41:08.223587000 137.601837s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:41:12.303247000 141.681432s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:41:20.377144000 149.755169s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:41:36.406249000 165.783954s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:42:08.506722000 197.883819s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:43:12.570957000 261.946807s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:45:20.677347000 390.050733s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-28T23:49:36.754996000 646.123411s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-29T09:24:02.529150000 1166.678564s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-29T09:41:06.630554000 2190.760306s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2017-07-29T10:59:03.222852000 6018.173250s notice: Server got SIGINT from pid 376, uid 501; shutting down...
+2017-07-29T10:59:03.223403000 6018.173801s notice: Shutting down client connections...
+2017-07-29T10:59:03.225693000 6018.176092s notice: All client connections closed.
+2017-07-29T10:59:03.225703000 6018.176100s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-07-29T10:59:03.241472000 6018.191870s notice: Storage engine shut down.
